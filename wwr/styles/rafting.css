@@ -1,6 +1,6 @@
 :root {
     --primary-color: #b6547b;
-    --secondary-color: #58708a;
+    --secondary-color: #c76b98;
     --accent1-color: #5a3e85;
     --accent2-color: #fafbff;
     --heading-font: "Georgia", serif;
@@ -39,7 +39,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--accent2-color);
+    color: var(--secondary-color);
     border-radius: 20px;
 }
 
