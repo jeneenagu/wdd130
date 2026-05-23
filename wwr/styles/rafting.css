@@ -3,8 +3,8 @@
     --secondary-color: #58708a;
     --accent1-color: #5a3e85;
     --accent2-color: #fafbff;
-    --heading-font: "Playfair Display", serif;
-    --body-font: "Poppins", sans-serif;
+    --heading-font: "Georgia", serif;
+    --body-font: "Verdana", sans-serif;
 }
 
 * {
@@ -39,7 +39,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
     border-radius: 20px;
 }
 
