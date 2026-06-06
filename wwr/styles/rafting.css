@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #d9f0e1;
+    --primary-color: #f8f4e3;
     --secondary-color: #c76b98;
     --accent1-color: #5a3e85;
     --accent2-color: #fafbff;
@@ -18,7 +18,7 @@ header {
     grid-template-columns: 150px 1fr;
     align-items: center;
     padding: 20px 20px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     border: 1px solid var(--accent1-color);
     margin: 20px 0;
 }
@@ -63,7 +63,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     border-radius: 20px;
 }
 
@@ -148,7 +148,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 20px 30px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 
 }
 
