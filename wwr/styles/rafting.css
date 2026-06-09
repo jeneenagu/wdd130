@@ -49,13 +49,13 @@ footer {
     margin: 0 auto;
 }
 
-h1,
+.hero h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -144,15 +144,16 @@ figure img {
 
 .address {
     margin-bottom: 5px;
+    text-align: center;
+    font-weight: 50;
 }
 
-.company {
+h1.company {
     font-size: 2rem;
+
 }
 
 .address p {
-    text-align: center;
-    font-weight: 100;
     margin: 1px;
     line-height: 0.8;
 }
