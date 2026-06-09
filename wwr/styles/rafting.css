@@ -142,6 +142,87 @@ figure img {
     height: 200px;
 }
 
+.address {
+    margin-bottom: 5px;
+}
+
+.company {
+    font-size: 2rem;
+}
+
+.address p {
+    text-align: center;
+    font-weight: 100;
+    margin: 1px;
+    line-height: 0.8;
+}
+
+.flex-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.map,
+form {
+    flex: 1;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+}
+
+.form-first {
+    display: grid;
+    grid-template-columns: 100px 250px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.purpose {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.purpose legend {
+    width: 100px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 370px;
+    height: 80px;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button {
+    width: 360px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    color: black;
+    background-color: var(--primary-color);
+}
+
 footer {
     display: flex;
     gap: 10px;
