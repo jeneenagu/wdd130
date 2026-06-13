@@ -146,6 +146,7 @@ figure img {
     margin-bottom: 5px;
     text-align: center;
     font-weight: 50;
+    background-color: var(--primary-color);
 }
 
 .address h1 {
@@ -162,6 +163,7 @@ figure img {
     display: flex;
     gap: 2rem;
     align-items: flex-start;
+    background-color: var(--primary-color);
 }
 
 .map,
