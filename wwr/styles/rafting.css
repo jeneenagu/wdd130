@@ -21,6 +21,7 @@ header {
     background-color: var(--secondary-color);
     border: 1px solid var(--accent1-color);
     margin: 20px 0;
+    border-radius: 10px;
 }
 
 nav ul {
@@ -110,7 +111,7 @@ article {
 .hero,
 section {
     border: 1px solid var(--accent1-color);
-    margin: 20px 0;
+    margin: 20px;
 }
 
 .historygrid {
@@ -226,6 +227,95 @@ button {
     background-color: var(--primary-color);
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 10px;
+    align-items: center;
+    border: none;
+
+}
+
+.container h2 {
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    opacity: 0.7
+}
+
+.newsletter-box,
+.cta {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.newsletter-box form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.newsletter-box button {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    border: none;
+}
+
+.offering {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 12px;
+}
+
+.offering img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: var(--primary-color);
+}
+
+.trip img {
+    width: 100%
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: var(--primary-color);
+}
+
+th,
+td {
+    border: 1px solid var(--accent1-color);
+    padding: 12px;
+    text-align: center;
+}
+
+thead tr {
+    background-color: var(--secondary-color);
+
+}
+
 footer {
     display: flex;
     gap: 10px;
@@ -233,6 +323,7 @@ footer {
     align-items: center;
     padding: 20px 30px;
     background-color: var(--secondary-color);
+    border-radius: 10px;
 }
 
 footer p {
